@@ -1,0 +1,16 @@
+1.2M	/home/ubuntu/src/robocasa/robocasa/models/assets/scenes
+1.4G	/home/ubuntu/src/robocasa/robocasa/models/assets/fixtures
+12K	/home/ubuntu/src/robocasa/robocasa/models/assets/groot_dataset_assets
+2026-10-08 Isaac-GR00T 9d7d7a9eb7ad30bd8ce30448d9ab53a918b45b10
+2026-10-08 robocasa 456174f62b89b8fca99eaaf33949c29fec9cfc2a
+2026-10-08 robosuite 5ce6643f3092639d08f7b0f90ed1c6a84f50552c
+20K	/home/ubuntu/src/robocasa/robocasa/models/assets/novel_instructions
+4.0K	/home/ubuntu/src/robocasa/robocasa/models/assets/README.md
+521M	/home/ubuntu/src/robocasa/robocasa/models/assets/textures
+60K	/home/ubuntu/src/robocasa/robocasa/models/assets/box_links
+7.6G	/home/ubuntu/src/robocasa/robocasa/models/assets/objects
+8.0K	/home/ubuntu/src/robocasa/robocasa/models/assets/arenas
+WARNING: mimicgen environments not imported since mimicgen is not installed!
+gr00t-venv torch 2.5.1+cu124 cuda True numpy 2.2.5
+robocasa-venv numpy 2.2.5 mujoco 3.3.1 robosuite 1.5.2 robocasa 1.0.1 pyzmq 27.2.0
+ros-venv py_trees 2.5.0 torch 2.5.1+cpu numpy 1.26.4

@@ -1,0 +1,15 @@
+# Goal: run the VLA skill with this instruction; stop_mode = how a cancel is honoured
+# (wait_chunk | truncate_hold | language_stop | bt_safe_abort, see preempt.contracts.StopMode)
+string instruction
+string stop_mode
+---
+# Result: why the goal ended (success | budget | truncate | safe_abort | chunk_done | language_window | ...)
+# and the control step at which the goal released command ownership (fence Q), -1 if never
+string reason
+int64 release_step
+---
+# Feedback, once per control step while the goal owns the command
+int64 step
+string phase
+int64 chunk
+int64 offset

@@ -1,0 +1,10 @@
+# scripts/returnbase_report.py on the C5 instance check AFTER the fix (dev seeds 1002/1004/1005, GR00T)
+OK  s1002_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.01 deg, max contact 0.0 N
+OK  s1002_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.0 deg, max contact 0.0 N
+OK  s1002_transport_bt_safe_abort_r0.jsonl: phase@I done, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / -0.02 deg, max contact 0.0 N
+OK  s1004_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.02 deg, max contact 0.0 N
+OK  s1004_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.01 deg, max contact 0.0 N
+OK  s1004_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.01 deg, max contact 0.0 N
+OK  s1005_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / 0.02 deg, max contact 0.0 N
+OK  s1005_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 42 steps, done True, past -0.061 m, error at done 0.061 m / -0.0 deg, max contact 0.0 N
+s1005_transport_bt_safe_abort_r0.jsonl: no interrupt window (I False), skipped

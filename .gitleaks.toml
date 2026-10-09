@@ -1,0 +1,7 @@
+# Default rules, plus one allowlist: episode keys "s<seed>_<phase>_<mode>_r<rep>" in results files match generic-api-key.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "episode keys"
+regexes = ['''^s\d+_(none|approach|grasp|transport)_(none|wait_chunk|truncate_hold|language_stop|bt_safe_abort)_r\d+$''']

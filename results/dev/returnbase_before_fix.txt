@@ -1,0 +1,24 @@
+# scripts/returnbase_report.py on the C2/C4/C5 dev logs, BEFORE the ReturnBase fix (0805bf8)
+BAD s1001_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1002_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 16 steps, done True, past 0.005 m, error at done 0.001 m / -0.07 deg, max contact 66.5 N
+BAD s1003_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 25 steps, done True, past 0.025 m, error at done 0.001 m / 0.0 deg, max contact 52.6 N
+BAD s1004_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / -0.0 deg, max contact 0.0 N
+OK  s1005_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 15 steps, done True, past -0.029 m, error at done 0.029 m / -0.21 deg, max contact 0.0 N
+BAD s1001_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 29 steps, done True, past 0.039 m, error at done 0.004 m / 0.0 deg, max contact 0.0 N
+BAD s1002_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 18 steps, done True, past 0.015 m, error at done 0.002 m / -0.0 deg, max contact 365.0 N
+BAD s1003_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 25 steps, done True, past 0.025 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1004_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / -0.0 deg, max contact 0.0 N
+BAD s1005_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 17 steps, done True, past 0.013 m, error at done 0.002 m / 0.0 deg, max contact 328.4 N
+BAD s1001_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.0 m / -0.0 deg, max contact 0.0 N
+BAD s1002_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 18 steps, done True, past 0.015 m, error at done 0.002 m / -0.0 deg, max contact 364.5 N
+BAD s1003_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 25 steps, done True, past 0.025 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1004_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / -0.0 deg, max contact 0.0 N
+BAD s1005_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 16 steps, done True, past 0.012 m, error at done 0.002 m / 0.01 deg, max contact 299.9 N
+BAD s1002_transport_bt_safe_abort_r0.jsonl: phase@I done, ReturnBase 18 steps, done True, past 0.014 m, error at done 0.001 m / -0.0 deg, max contact 358.1 N
+BAD s1003_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 22 steps, done True, past 0.024 m, error at done 0.002 m / 0.0 deg, max contact 116.1 N
+BAD s1004_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1004_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1004_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 32 steps, done True, past 0.039 m, error at done 0.001 m / 0.0 deg, max contact 0.0 N
+BAD s1007_approach_bt_safe_abort_r0.jsonl: phase@I approach, ReturnBase 29 steps, done True, past 0.039 m, error at done 0.003 m / 0.0 deg, max contact 0.0 N
+BAD s1007_grasp_bt_safe_abort_r0.jsonl: phase@I grasp, ReturnBase 29 steps, done True, past 0.039 m, error at done 0.004 m / 0.0 deg, max contact 0.0 N
+BAD s1007_transport_bt_safe_abort_r0.jsonl: phase@I transport, ReturnBase 35 steps, done True, past 0.039 m, error at done 0.001 m / 0.0 deg, max contact 21.4 N

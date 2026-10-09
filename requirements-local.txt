@@ -1,0 +1,14 @@
+# Local pure-Python core + tests (Intel Mac, /usr/local/bin/python3.12 -m venv .venv).
+# No ROS / robocasa / mujoco / torch here.
+pytest==9.1.1
+# AWS sim env pins numpy 2.2.5 (robocasa asserts it); core code is also kept numpy-1.26 compatible.
+numpy==2.2.5
+# py_trees pinned to what ROS 2 Humble actually installs via apt: 2.5.0 (measured on the instance 2026-10-08;
+# rosdistro lists 2.6.0-1 but the apt binary is 2.5.0). Local tests pass on both 2.5.0 and 2.6.0.
+# Earlier note:
+#   ros/rosdistro humble/distribution.yaml -> py_trees release version 2.6.0-1
+#   ros2-gbp/py_trees-release tag release/humble/py_trees/2.6.0-1 (checked 2026-10-08)
+py_trees==2.5.0
+# Figures and GIF (scripts/make_figures.py, scripts/make_gif.py); not needed for the tests.
+pillow==11.0.0
+matplotlib==3.9.2
